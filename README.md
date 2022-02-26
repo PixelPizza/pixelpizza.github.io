@@ -1,1 +1,2 @@
-# pixelpizza.github.io
+![](./img/logo.png)
+# Pixel Pizza Website
