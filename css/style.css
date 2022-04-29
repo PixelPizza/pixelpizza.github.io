@@ -1,13 +1,135 @@
-img {
-    width: 60vw;
-}
-
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    height: 60px;
+}
+
+nav ul, footer ul {
+    list-style: none;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Height */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-60\% {
+    height: 60%;
+}
+
+/* Paddings */
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.px-10 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.px-20 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.px-30 {
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Margins */
+.ml-4 {
+    margin-left: 2rem;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.space-y-1 > * ~ * {
+    margin-top: .5rem;
+}
+
+.space-y-4 > * ~ * {
+    margin-top: 2rem;
+}
+
+/* Flex */
+.flex {
     display: flex;
+}
+
+.flex-column {
     flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+.gap-1 {
+    gap: .5rem;
+}
+
+.gap-2 {
+    gap: 1rem;
+}
+
+/* Align / Justify */
+.align-center {
     align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Colors */
+.bg-primary {
+    background-color: #750000;
+    color: #fff;
+}
+
+/* Text Size */
+.text-xl {
+    font-size: 2rem;
+}
+
+.text-strong {
+    font-weight: 900;
 }
