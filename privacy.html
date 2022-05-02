@@ -1,28 +1,96 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Privacy Policy</title>
+    <title>Pixel Pizza - Privacy</title>
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <a href="./"><img src="img/logo.png" alt="logo"></a>
-    <div>
-      <h1>Privacy Policy</h1>
-      <p><strong>We are not liable if you share your discord password or token with us.</strong></p>
-      <p>The discord data we collect is user ids, channel ids, guild ids and links to images of orders.</p>
-      <p>We collect this data, because we need it to identify which user ordered, cooked or delivered an order (user ids) and where to deliver that order to (guild and channel ids).</p>
-      <p>Aside from the discord data we collect we also store:</p>
-      <ul>
-        <li>Your orders to be able to know what to make</li>
-        <li>The date of ordering, cooking and delivering. This is mostly used for complaints if an order takes too long to make</li>
-        <li>The way the order got delivered, this gets used for checking wether a new invite can be generated for an order if the old one was invalid</li>
-        <li>The reason why an order was deleted, so it can be recovered if it should not have been removed.</li>
-        <li>Delivery messages of deliverers for delivering the order with a custom message.</li>
-      </ul>
-      <p><strong>We do not share this data with anyone except discord and our workers.</strong></p>
-      <p>If you have any concerns about our bot you can contact us via <a href="mailto:pixel-pizza@outlook.com">pixel-pizza@outlook.com</a> or our <a href="https://discord.gg/MzbsFPe">support server</a>.</p>
-      <p>To remove stored data, please contact us at <a href="mailto:pixel-pizza@outlook.com">pixel-pizza@outlook.com</a> or in our <a href="https://discord.gg/MzbsFPe">support server</a> and we will remove it for you.</p>
-    </div>
+  <body class="min-vh-100 flex flex-column">
+    <header class="px-10 bg-primary flex align-center">
+        <nav class="h-60%">
+            <ul class="h-full flex align-center gap-2">
+                <li class="h-full">
+                    <a class="h-full" href="/">
+                        <img class="h-full" src="img/logo-full.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="commands">Commands</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-grow-1 flex-shrink-1 flex align-center justify-center py-5">
+      <div class="px-20 space-y-1">
+        <h1>Privacy Policy</h1>
+        <p><strong>We are not liable if you share your discord password or token with us.</strong></p>
+        <p>The discord data we collect is user ids, channel ids, guild ids and links to images of orders.</p>
+        <p>We collect this data, because we need it to identify which user ordered, cooked or delivered an order (user ids) and where to deliver that order to (guild and channel ids).</p>
+        <p>Aside from the discord data we collect we also store:</p>
+        <ul class="ml-4">
+          <li>Your orders to be able to know what to make</li>
+          <li>The date of ordering, cooking and delivering. This is mostly used for complaints if an order takes too long to make</li>
+          <li>The way the order got delivered, this gets used for checking wether a new invite can be generated for an order if the old one was invalid</li>
+          <li>The reason why an order was deleted, so it can be recovered if it should not have been removed.</li>
+          <li>Delivery messages of deliverers for delivering the order with a custom message.</li>
+        </ul>
+        <p><strong>We do not share this data with anyone except discord and our workers.</strong></p>
+        <p>If you have any concerns about our bot you can contact us via <a href="mailto:pixel-pizza@outlook.com">pixel-pizza@outlook.com</a> or our <a href="https://discord.gg/MzbsFPe">support server</a>.</p>
+        <p>To remove stored data, please contact us at <a href="mailto:pixel-pizza@outlook.com">pixel-pizza@outlook.com</a> or in our <a href="https://discord.gg/MzbsFPe">support server</a> and we will remove it for you.</p>
+      </div>
+    </main>
+    <footer class="px-30 pb-1 pt-3 bg-primary space-y-4">
+        <div class="flex justify-between">
+            <ul class="space-y-1">
+                <!-- <li><h4>Information</h4></li> -->
+                <!-- <li>
+                    <a href="staff">Staff Team</a>
+                </li> -->
+                <li>
+                    <a href="privacy">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="terms">Terms of Service</a>
+                </li>
+            </ul>
+            <ul class="space-y-1">
+                <!-- <li><h4>Information</h4></li> -->
+                <!-- <li>
+                    <a href="rules">Rules</a>
+                </li>
+                <li>
+                    <a href="blog">Announcements</a>
+                </li>
+                <li>
+                    <a href="tutorial">Tutorials</a>
+                </li> -->
+            </ul>
+            <ul class="space-y-1">
+                <!-- <li><h4>Information</h4></li> -->
+                <!-- <li>
+                    <a href="apply">Apply</a>
+                </li>
+                <li>
+                    <a href="appeal">Ban Appeal</a>
+                </li>
+                <li>
+                    <a href="suggest">Suggestions</a>
+                </li> -->
+            </ul>
+            <ul class="space-y-1">
+                <!-- <li><h4>Information</h4></li> -->
+                <li>
+                    <a href="commands">Commands</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex justify-center gap-1">
+            <img src="https://github.com/PixelPizza/Images/blob/main/b3ae66a1d6f601eb55114fbd172ad973.png?raw=true">
+            <div class="my-auto">
+                <h2 class="text-xl text-strong">Pixel Pizza</h2>
+                <p>&copy; PixelPizza - 2022</p>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
